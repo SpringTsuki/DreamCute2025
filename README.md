@@ -1,2 +1,2 @@
-# DreamCute-2025
+# DreamCute2025
 Datapack-Files
