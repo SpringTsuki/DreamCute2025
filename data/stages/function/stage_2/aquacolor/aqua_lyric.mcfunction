@@ -22,6 +22,8 @@ execute if score #user stage_secret_aqua matches 560 run title @a title {"text":
 execute if score #user stage_secret_aqua matches 560 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_info"}
 execute if score #user stage_secret_aqua matches 590 run title @a title {"text":""}
 execute if score #user stage_secret_aqua matches 590 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_video"}
+execute if score #user stage_secret_aqua matches 620 run title @a title {"text":""}
+execute if score #user stage_secret_aqua matches 620 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_birth"}
 
 execute if score #user stage_secret_aqua matches 722 run title @a title  {"translate":"stage_2_aqua.i"}
 execute if score #user stage_secret_aqua matches 729 run title @a title  {"translate":"stage_2_aqua.love"}
