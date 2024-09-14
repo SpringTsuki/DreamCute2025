@@ -3,7 +3,8 @@
       "stages:stage_d/ore_tick",
 
       "stages:stage_q/stage_q_ticks",
-
+      "stages:stage_l/stage_l_ticks",
+      
       "stages:stage_2/aquacolor/aqua_trigger"
       
     ]

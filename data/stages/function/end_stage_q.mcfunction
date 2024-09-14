@@ -1,1 +1,2 @@
 scoreboard objectives remove stage_q_talk
+scoreboard objectives remove stage_d_failed
