@@ -1,14 +1,22 @@
-/setblock -7 -60 -1 minecraft:chest[facing=east,type=single,waterlogged=false]{Items:[{Slot:13b,count:1,id:"minecraft:netherite_sword"}]}
-
-/setblock -7 -60 1 minecraft:chest[facing=east,type=single,waterlogged=false]{Items:[]}
-
-data merge block -7 -60 -1 {Items:[{Slot:13b,count:1,id:"minecraft:netherite_sword"}]}
-
-
-execute unless data block -7 -60 -1 {Items:[{Slot:13b,count:1,id:"minecraft:netherite_sword"}]} run say 1
-data modify block -7 -60 -1 Items insert 0 value {Slot:13b,id:"minecraft:netherite_sword",count:1}
-
-
+###
 execute unless data block -7 -60 -1 {Items:[{Slot:13b,count:1,id:"minecraft:netherite_sword"}]} run data modify block -7 -60 -1 Items insert 0 value {Slot:13b,id:"minecraft:netherite_sword",count:1}
+###
+
+
+
 
 {"minecraft:enchantments":{levels:{"minecraft:efficiency":5}}}
+
+data modify block -7 -60 3 Items append value {components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5}}}}
+
+/setblock -7 -60 3 minecraft:furnace[facing=east,lit=false]{BurnTime:0s,CookTime:0s,CookTimeTotal:200s,Items:[],RecipesUsed:{}}
+
+/setblock -7 -60 3 minecraft:furnace[facing=east,lit=false]{BurnTime:0s,CookTime:0s,CookTimeTotal:200s,Items:[{Slot:0b,count:1,id:"minecraft:netherite_sword"}],RecipesUsed:{}}
+
+/setblock -7 -60 3 minecraft:furnace[facing=east,lit=false]{BurnTime:0s,CookTime:0s,CookTimeTotal:200s,Items:[{Slot:0b,components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5}},"minecraft:repair_cost":1},count:1,id:"minecraft:netherite_sword"}],RecipesUsed:{}}
+
+/data get block -7 -60 3 Items[0].components."minecraft:enchantments".levels
+
+data modify block -7 -60 3 Items[0].components."minecraft:enchantments".levels merge value {"minecraft:efficiency":5}
+
+/setblock -7 -60 3 minecraft:furnace[facing=east,lit=false]{BurnTime:0s,CookTime:0s,CookTimeTotal:200s,Items:[{Slot:0b,components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5}}},count:1,id:"minecraft:netherite_sword"},{Slot:1b,count:1,id:"minecraft:oak_button"}],RecipesUsed:{}}
