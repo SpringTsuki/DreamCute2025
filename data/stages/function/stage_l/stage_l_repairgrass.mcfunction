@@ -1,0 +1,2 @@
+execute if score #user stage_l_quest matches 0 run tellraw @p {"text":"","extra":[{"translate":"stage.l.quest.failed"}]}
+execute if score #user stage_l_quest matches 1 run clone 890 61 2767 896 60 2761 892 68 2759 replace

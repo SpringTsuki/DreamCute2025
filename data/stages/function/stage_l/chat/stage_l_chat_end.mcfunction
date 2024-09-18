@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"translate":"stage.l.chat.end"}]}
