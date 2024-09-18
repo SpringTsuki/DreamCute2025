@@ -1,5 +1,7 @@
 function stages:init_stage_0
+function stages:init_stage_a
 function stages:init_stage_d
+function stages:init_stage_l
 function stages:init_stage_q
 function stages:init_stage_final
 
