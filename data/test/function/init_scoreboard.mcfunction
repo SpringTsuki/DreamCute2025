@@ -15,8 +15,10 @@ setblock 895 69 2762 minecraft:air
 data remove block 900 70 2765 Items
 
 # Lv.N
+setblock 907 58 2774 minecraft:air
 scoreboard players set #user stage_n_sandtool 0
 scoreboard players set @a stage_n_sandtool 0
+data remove block 894 71 2734 Items
 
 scoreboard players enable @a stage_n_talk
 scoreboard players set @a stage_n_talk 0
