@@ -1,12 +1,15 @@
 {
     "values": [
-
       "stages:stage_a/stage_a_ticks",
-      "stages:stage_d/ore_tick",
 
-      "stages:stage_q/stage_q_ticks",
       "stages:stage_l/stage_l_ticks",
-      
+      "stages:stage_n/stage_n_ticks",
+
+      "stages:stage_d/stage_d_ticks",
+
+      "stages:stage_s/stage_s_ticks",
+      "stages:stage_q/stage_q_ticks",   
+
       "stages:stage_2/aquacolor/aqua_trigger"
       
     ]

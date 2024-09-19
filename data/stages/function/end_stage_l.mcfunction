@@ -1,1 +1,0 @@
-scoreboard objectives remove stage_l_talk

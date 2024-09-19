@@ -10,4 +10,4 @@ execute as @a at @s if score @s stage_a_talk matches 7 run function stages:stage
 execute as @a at @s if score @s stage_a_talk matches 1.. run scoreboard players set @s stage_a_talk 0
 
 # A关 - 修复燃气后奖励
-execute if score #user stage_a_quest matches 1 run execute as @a[x=932,y=77,z=2762,dx=20,dy=5,dz=-20] run effect give @s minecraft:saturation 300
+execute if score #user stage_a_quest matches 1 run function stages:stage_a/stage_a_rewards
