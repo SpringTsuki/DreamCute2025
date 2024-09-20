@@ -1,5 +1,6 @@
 {
     "values": [
+      "stages:bgm/bgm_ticks",
       "stages:stage_a/stage_a_ticks",
 
       "stages:stage_l/stage_l_ticks",

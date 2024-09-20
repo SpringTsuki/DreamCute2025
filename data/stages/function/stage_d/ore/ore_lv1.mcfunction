@@ -1,20 +1,83 @@
-# execute if score #user stage_d_ore matches 1 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 2 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 3 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 4 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 5 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 6 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 7 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 8 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 9 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 10 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 11 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 12 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 13 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 14 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 15 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 16 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 17 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 18 run setblock 948 71 2724 minecraft:coal_ore keep
-# execute if score #user stage_d_ore matches 19 run setblock 948 71 2724 minecraft:emerald_ore keep
-# execute if score #user stage_d_ore matches 20 run setblock 948 71 2724 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 1 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 2 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 3 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 4 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 5 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 6 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 7 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 8 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 9 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 10 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 11 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 12 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 13 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 14 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 15 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 16 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 17 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 18 run setblock 925 39 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 19 run setblock 925 39 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 20 run setblock 925 39 2765 minecraft:coal_ore keep
+# 煤炭：50%、绿宝石：50%
+execute if score #user stage_d_ore matches 1 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 2 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 3 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 4 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 5 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 6 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 7 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 8 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 9 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 10 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 11 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 12 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 13 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 14 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 15 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 16 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 17 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 18 run setblock 927 40 2766 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 19 run setblock 927 40 2766 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 20 run setblock 927 40 2766 minecraft:coal_ore keep
+
+execute if score #user stage_d_ore matches 1 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 2 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 3 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 4 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 5 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 6 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 7 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 8 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 9 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 10 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 11 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 12 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 13 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 14 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 15 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 16 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 17 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 18 run setblock 928 42 2765 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 19 run setblock 928 42 2765 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 20 run setblock 928 42 2765 minecraft:coal_ore keep
+
+execute if score #user stage_d_ore matches 1 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 2 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 3 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 4 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 5 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 6 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 7 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 8 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 9 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 10 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 11 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 12 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 13 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 14 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 15 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 16 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 17 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 18 run setblock 928 41 2768 minecraft:coal_ore keep
+execute if score #user stage_d_ore matches 19 run setblock 928 41 2768 minecraft:emerald_ore keep
+execute if score #user stage_d_ore matches 20 run setblock 928 41 2768 minecraft:coal_ore keep
