@@ -1,0 +1,7 @@
+scoreboard objectives add stage_e_talk trigger
+scoreboard players enable @a stage_e_talk
+scoreboard players set @a stage_e_talk 0
+
+scoreboard objectives add stage_e_timeline trigger
+scoreboard players set @a stage_e_talk 0
+scoreboard players set #user stage_e_talk 0

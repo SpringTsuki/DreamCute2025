@@ -1,15 +1,10 @@
-scoreboard players set @a stage_a_quest 0
-scoreboard players set @a stage_l_quest 0
-
-scoreboard players set #user stage_a_quest 0
-scoreboard players set #user stage_l_quest 0
-
-# System
-function stages:init_bgm
-
+stopsound @a
+effect clear @a
 # Lv.A
 setblock 903 58 2776 minecraft:air
 setblock 907 58 2776 minecraft:air
+scoreboard players set @a stage_a_quest 0
+scoreboard players set #user stage_a_quest 0
 
 # Lv.A-Secret
 scoreboard players set @s stage_a_secret_bgm 0
@@ -18,6 +13,8 @@ scoreboard players set @s stage_a_secret_bgm 0
 setblock 895 63 2749 minecraft:air
 setblock 903 58 2774 minecraft:air
 setblock 895 69 2762 minecraft:air
+scoreboard players set @a stage_l_quest 0
+scoreboard players set #user stage_l_quest 0
 data remove block 900 70 2765 Items
 
 # Lv.N
@@ -39,7 +36,18 @@ data remove block 945 71 2728 Items
 # Lv.S
 setblock 903 63 2714 minecraft:air
 scoreboard players set @a stage_s_talk 0
+scoreboard players set #user stage_s_quest 0
 scoreboard players set @a stage_s_quest 0
 
-# scoreboard players set #user stage_n_quest 0
-# scoreboard players set @a stage_n_quest 0
+# Lv.Y
+setblock 903 58 2772 minecraft:air
+scoreboard players set @a stage_y_talk 0
+scoreboard players set @a stage_y_quest 0
+scoreboard players set #user stage_y_quest 0
+
+# Lv.E
+scoreboard players set #user stage_e_timeline 0
+scoreboard players set @a stage_e_timeline 0
+setblock 903 58 2770 minecraft:air
+setblock 551 97 3040 minecraft:white_concrete
+setblock 551 97 3039 minecraft:stone_button[facing=north]
