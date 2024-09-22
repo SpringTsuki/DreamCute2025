@@ -30,4 +30,7 @@ clear @a
 # 全局title特效
 title @a times 1.5s 5s 2.5s
 
+# 强制区块载入
+forceload add 902 2756 925 2809
+
 function stages:stage_0/stage_0__start

@@ -11,10 +11,11 @@ execute as @a at @s if score @s stage_a_talk matches 1.. run scoreboard players 
 
 # A关 - 修复燃气后奖励
 execute if score #user stage_a_quest matches 1 run function stages:stage_a/stage_a_rewards
+execute if score #user stage_secret_aqua matches 1.. run scoreboard players set @s stage_a_secret_bgm 0
 execute if score #user stage_secret_aqua matches 1.. run return 0
 
 # 隐藏A关 - 音乐部分
-execute as @a at @s unless entity @s[x=940,y=90,z=2740,dx=21,dy=5,dz=-2] run function stages:stage_a/stage_a_secret_bgm
+execute as @a at @s unless entity @s[x=940,y=90,z=2740,dx=21,dy=5,dz=-27] run function stages:stage_a/stage_a_secret_bgm
 
 execute as @a[x=940,y=90,z=2740,dx=21,dy=5,dz=-27] at @s run scoreboard players add @s stage_a_secret_bgm 1
 execute as @a[scores={stage_a_secret_bgm=1}] at @s run function stages:bgm/secret_stage_a
