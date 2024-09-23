@@ -3,12 +3,15 @@ execute if score #user stage_e_timeline matches 0 run clone 591 -3 3023 576 -3 3
 execute if score #user stage_e_timeline matches 0 run clone 591 -1 3023 576 -1 3038 544 95 3024
 execute if score #user stage_e_timeline matches 0 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete
 execute if score #user stage_e_timeline matches 0 run fill 550 -55 3018 553 -57 3018 minecraft:black_concrete
+execute if score #user stage_e_timeline matches 0 run setblock 551 97 3040 minecraft:white_concrete
+execute if score #user stage_e_timeline matches 0 run setblock 551 97 3039 minecraft:stone_button[facing=north]
 
 execute if score #user stage_e_timeline matches 1 run clone 591 -2 3023 576 -2 3038 544 101 3024
 execute if score #user stage_e_timeline matches 1 run clone 591 -3 3023 576 -3 3038 544 -58 3024
 execute if score #user stage_e_timeline matches 1 run clone 591 -1 3023 576 -1 3038 544 95 3024
 execute if score #user stage_e_timeline matches 1 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete
 execute if score #user stage_e_timeline matches 1 run fill 550 -55 3018 553 -57 3018 minecraft:black_concrete
+execute if score #user stage_e_timeline matches 1 run fill 550 -57 2771 553 -55 2771 minecraft:black_concrete
 
 execute if score #user stage_e_timeline matches 10 run clone 591 -3 3023 576 -3 3038 544 101 3024
 execute if score #user stage_e_timeline matches 10 run effect give @a minecraft:darkness 20 1 true
@@ -61,3 +64,5 @@ execute if score #user stage_e_timeline matches 970 run fill 551 -55 3023 552 -5
 execute if score #user stage_e_timeline matches 970 run clone 591 -60 3023 576 -60 3038 544 -58 3024
 
 execute if score #user stage_e_timeline matches 1170 run fill 550 -55 3018 553 -57 3018 minecraft:air
+
+execute if score #user stage_e_timeline matches 2920 run fill 550 -57 2771 553 -55 2771 minecraft:air
