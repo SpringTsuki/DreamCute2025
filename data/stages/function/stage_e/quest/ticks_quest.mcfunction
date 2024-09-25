@@ -1,17 +1,4 @@
-execute if score #user stage_e_timeline matches 0 run clone 591 -2 3023 576 -2 3038 544 101 3024
-execute if score #user stage_e_timeline matches 0 run clone 591 -3 3023 576 -3 3038 544 -58 3024
-execute if score #user stage_e_timeline matches 0 run clone 591 -1 3023 576 -1 3038 544 95 3024
-execute if score #user stage_e_timeline matches 0 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete
-execute if score #user stage_e_timeline matches 0 run fill 550 -55 3018 553 -57 3018 minecraft:black_concrete
-execute if score #user stage_e_timeline matches 0 run setblock 551 97 3040 minecraft:white_concrete
-execute if score #user stage_e_timeline matches 0 run setblock 551 97 3039 minecraft:stone_button[facing=north]
-
-execute if score #user stage_e_timeline matches 1 run clone 591 -2 3023 576 -2 3038 544 101 3024
-execute if score #user stage_e_timeline matches 1 run clone 591 -3 3023 576 -3 3038 544 -58 3024
-execute if score #user stage_e_timeline matches 1 run clone 591 -1 3023 576 -1 3038 544 95 3024
-execute if score #user stage_e_timeline matches 1 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete
-execute if score #user stage_e_timeline matches 1 run fill 550 -55 3018 553 -57 3018 minecraft:black_concrete
-execute if score #user stage_e_timeline matches 1 run fill 550 -57 2771 553 -55 2771 minecraft:black_concrete
+execute as @a[x=550,y=-57,z=2625,dx=3,dy=3,dz=-2] run scoreboard players set #user stage_e_stage_1 1
 
 execute if score #user stage_e_timeline matches 10 run clone 591 -3 3023 576 -3 3038 544 101 3024
 execute if score #user stage_e_timeline matches 10 run effect give @a minecraft:darkness 20 1 true
@@ -57,12 +44,31 @@ execute if score #user stage_e_timeline matches 621 run clone 591 32 3023 576 32
 execute if score #user stage_e_timeline matches 641 run clone 591 33 3023 576 33 3038 544 95 3024
 execute if score #user stage_e_timeline matches 660 run clone 591 34 3023 576 34 3038 544 95 3024
 
-execute if score #user stage_e_timeline matches 660 run effect give @a minecraft:resistance 20 4 true
+execute if score #user stage_e_timeline matches 660 run effect give @a minecraft:resistance 20 5 true
 
 execute if score #user stage_e_timeline matches 775 run effect give @a minecraft:levitation 7 20 true
 execute if score #user stage_e_timeline matches 970 run fill 551 -55 3023 552 -57 3023 minecraft:air
 execute if score #user stage_e_timeline matches 970 run clone 591 -60 3023 576 -60 3038 544 -58 3024
 
 execute if score #user stage_e_timeline matches 1170 run fill 550 -55 3018 553 -57 3018 minecraft:air
+execute if score #user stage_e_timeline matches 1170 run clone 591 -3 3023 576 -3 3038 544 -58 3024
 
 execute if score #user stage_e_timeline matches 2920 run fill 550 -57 2771 553 -55 2771 minecraft:air
+
+execute if score #user stage_e_timeline matches 3789 run execute if score #user stage_e_stage_1 matches 0 run function stages:stage_e/quest/failed_quest
+execute if score #user stage_e_timeline matches 3789 run execute if score #user stage_e_stage_1 matches 0 run return 0
+
+execute if score #user stage_e_timeline matches 3789 run effect give @a minecraft:invisibility 6 1 true
+
+execute if score #user stage_e_timeline matches 3790 run summon armor_stand 552.00 -57.00 2624.50 {Invisible:1b}
+execute if score #user stage_e_timeline matches 3790 run tp @a 552.00 -57.00 2624.50 180 0
+
+execute if score #user stage_e_timeline matches 3791..3910 run execute at @e[type=minecraft:armor_stand] facing 552.00 -57.00 3030.50 run tp @e[type=minecraft:armor_stand] ^ ^ ^3.39
+execute if score #user stage_e_timeline matches 3791..3910 run execute at @e[type=minecraft:armor_stand] run tp @a ~ ~ ~ facing 552.00 -57 2623.50
+
+execute if score #user stage_e_timeline matches 3911 run kill @e[type=armor_stand]
+execute if score #user stage_e_timeline matches 3925 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete
+
+execute if score #user stage_e_timeline matches 3950 run effect give @a minecraft:levitation 32 6 true
+
+execute if score #user stage_e_timeline matches 4583 run clone 591 -1 3023 576 -1 3038 544 95 3024
