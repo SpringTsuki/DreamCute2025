@@ -29,4 +29,20 @@ setblock 945 71 2728 minecraft:chest[facing=east,type=single,waterlogged=false]{
 
 execute if score @p[x=919,y=39,z=2765,dx=5,dy=5,dz=5] stage_n_sandtool matches 1 run setblock 907 58 2774 minecraft:redstone_block replace
 
-/setblock 894 71 2734 minecraft:chest[facing=north,type=single,waterlogged=false]{Items:[{Slot:13b,components:{"minecraft:can_break":{predicates:[{blocks:["minecraft:sand","minecraft:snow"]}]},"minecraft:custom_name":'{"translate":"stage.n.npc.rewards.item1"}',"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}},"minecraft:lore":['{"translate":"stage.n.npc.rewards.item1_desc"}']},count:1,id:"minecraft:wooden_shovel"}]}
+setblock 894 71 2734 minecraft:chest[facing=north,type=single,waterlogged=false]{Items:[{Slot:13b,components:{"minecraft:can_break":{predicates:[{blocks:["minecraft:sand","minecraft:snow"]}]},"minecraft:custom_name":'{"translate":"stage.n.npc.rewards.item1"}',"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}},"minecraft:lore":['{"translate":"stage.n.npc.rewards.item1_desc"}']},count:1,id:"minecraft:wooden_shovel"}]}
+
+give @s minecraft:enchanted_book[minecraft:stored_enchantments={levels:{"minecraft:unbreaking":3}},minecraft:repair_cost=0,minecraft:lore=[],minecraft:attribute_modifiers={modifiers:[]},minecraft:enchantments={levels:{}},minecraft:max_stack_size=1,minecraft:enchantment_glint_override=1b,minecraft:rarity="uncommon"]
+
+give SpringAurora minecraft:oak_pressure_plate[minecraft:lore=['{translate:"stage.e.npc.item_forge"}','{translate:"stage.e.npc.item_weapon"}']]
+
+data get block 915 72 2762 Items[1].components.minecraft:lore
+
+setblock 915 72 2762 minecraft:furnace[facing=west,lit=false]{BurnTime:0s,CookTime:0s,CookTimeTotal:200s,CustomName:'"冶炼炉"',Items:[{Slot:0b,count:1,id:"minecraft:diamond_sword"},{Slot:1b,components:{"minecraft:custom_name":'{"translate":"stage.e.npc.item1"}',"minecraft:lore":['{"translate":"stage.e.npc.item1_desc"}','{"translate":"stage.e.npc.item_forge"}','{"translate":"stage.e.npc.item_weapon"}','{"translate":"stage.e.npc.item_tool"}','{"translate":"stage.e.npc.item_bow"}','{"translate":"stage.e.npc.item_chest"}'],"minecraft:rarity":"uncommon","minecraft:stored_enchantments":{levels:{"minecraft:unbreaking":2}}},count:1,id:"minecraft:oak_pressure_plate"}],RecipesUsed:{}}
+
+{Items:[{Slot:13b,count:1,id:"minecraft:netherite_sword"}]}
+
+execute if data block 915 72 2762 {Items:[{Slot:1b,count:1,id:"minecraft:oak_pressure_plate"}]}
+execute if data block 915 72 2762 {Items:[{Slot:1b,count:1,id:"minecraft:birch_pressure_plate"}]}
+execute if data block 915 72 2762 {Items:[{Slot:1b,count:1,id:"minecraft:bamboo_pressure_plate"}]}
+execute if data block 915 72 2762 {Items:[{Slot:1b,count:1,id:"minecraft:cherry_pressure_plate"}]}
+execute if data block 915 72 2762 {Items:[{Slot:1b,count:1,id:"minecraft:mangrove_pressure_plate"}]}
