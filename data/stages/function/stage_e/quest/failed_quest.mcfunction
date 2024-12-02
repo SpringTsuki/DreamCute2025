@@ -9,6 +9,9 @@ setblock 903 58 2770 minecraft:air
 setblock 551 97 3040 minecraft:white_concrete
 setblock 551 97 3039 minecraft:stone_button[facing=north]
 
+setblock 551 97 3024 minecraft:air
+setblock 551 97 3023 minecraft:black_concrete
+
 clone 591 -1 3023 576 -1 3038 544 95 3024
 clone 591 -2 3023 576 -2 3038 544 101 3024
 clone 591 -3 3023 576 -3 3038 544 -58 3024

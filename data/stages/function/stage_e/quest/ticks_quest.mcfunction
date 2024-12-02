@@ -72,3 +72,5 @@ execute if score #user stage_e_timeline matches 3925 run fill 551 -55 3023 552 -
 execute if score #user stage_e_timeline matches 3950 run effect give @a minecraft:levitation 32 6 true
 
 execute if score #user stage_e_timeline matches 4583 run clone 591 -1 3023 576 -1 3038 544 95 3024
+execute if score #user stage_e_timeline matches 4584 run setblock 551 97 3024 minecraft:stone_button[facing=south] replace
+execute if score #user stage_e_timeline matches 4584 run setblock 551 97 3023 minecraft:white_concrete

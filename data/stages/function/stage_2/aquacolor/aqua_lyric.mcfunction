@@ -17,26 +17,26 @@ execute if score #user stage_secret_aqua matches 441 run title @a subtitle {"tra
 
 
 execute if score #user stage_secret_aqua matches 515 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 515 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua"}
+execute if score #user stage_secret_aqua matches 515 run title @a subtitle {"translate":"bgm.name.stage_2_aqua"}
 execute if score #user stage_secret_aqua matches 560 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 560 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_info"}
+execute if score #user stage_secret_aqua matches 560 run title @a subtitle {"translate":"bgm.name.stage_2_aqua_info"}
 execute if score #user stage_secret_aqua matches 590 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 590 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_video"}
+execute if score #user stage_secret_aqua matches 590 run title @a subtitle {"translate":"bgm.name.stage_2_aqua_video"}
 execute if score #user stage_secret_aqua matches 620 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 620 run title @a subtitle  {"translate":"bgm.name.stage_2_aqua_birth"}
+execute if score #user stage_secret_aqua matches 620 run title @a subtitle {"translate":"bgm.name.stage_2_aqua_birth"}
 
-execute if score #user stage_secret_aqua matches 722 run title @a title  {"translate":"stage_2_aqua.i"}
-execute if score #user stage_secret_aqua matches 729 run title @a title  {"translate":"stage_2_aqua.love"}
-execute if score #user stage_secret_aqua matches 739 run title @a title  {"translate":"stage_2_aqua.you"}
-execute if score #user stage_secret_aqua matches 745 run title @a title  {"translate":"stage_2_aqua.so"}
-execute if score #user stage_secret_aqua matches 750 run title @a title  {"translate":"stage_2_aqua.much"}
+execute if score #user stage_secret_aqua matches 722 run title @a title {"translate":"stage_2_aqua.i"}
+execute if score #user stage_secret_aqua matches 729 run title @a title {"translate":"stage_2_aqua.love"}
+execute if score #user stage_secret_aqua matches 739 run title @a title {"translate":"stage_2_aqua.you"}
+execute if score #user stage_secret_aqua matches 745 run title @a title {"translate":"stage_2_aqua.so"}
+execute if score #user stage_secret_aqua matches 750 run title @a title {"translate":"stage_2_aqua.much"}
 
 execute if score #user stage_secret_aqua matches 764 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 764 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 764 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 execute if score #user stage_secret_aqua matches 822 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 822 run title @a subtitle  {"translate":"stage_2_aqua.iloveu"}
+execute if score #user stage_secret_aqua matches 822 run title @a subtitle {"translate":"stage_2_aqua.iloveu"}
 execute if score #user stage_secret_aqua matches 882 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 882 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 882 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 
 
 execute if score #user stage_secret_aqua matches 944 run title @a title {"text":""}
@@ -86,11 +86,11 @@ execute if score #user stage_secret_aqua matches 2191 run title @a title {"text"
 execute if score #user stage_secret_aqua matches 2191 run title @a subtitle {"translate":"stage_2_aqua.28"}
 
 execute if score #user stage_secret_aqua matches 2270 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 2270 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 2270 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 execute if score #user stage_secret_aqua matches 2328 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 2328 run title @a subtitle  {"translate":"stage_2_aqua.iloveu"}
+execute if score #user stage_secret_aqua matches 2328 run title @a subtitle {"translate":"stage_2_aqua.iloveu"}
 execute if score #user stage_secret_aqua matches 2388 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 2388 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 2388 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 
 execute if score #user stage_secret_aqua matches 2477 run title @a times 0.5s 10s 0.5s
 execute if score #user stage_secret_aqua matches 2477 run title @a title {"text":""}
@@ -164,22 +164,22 @@ execute if score #user stage_secret_aqua matches 4817 run title @a title {"trans
 execute if score #user stage_secret_aqua matches 4847 run title @a title {"translate":"stage_2_aqua.57_4"}
 
 execute if score #user stage_secret_aqua matches 4960 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 4960 run title @a subtitle  {"translate":"stage_2_aqua.iloveu"}
+execute if score #user stage_secret_aqua matches 4960 run title @a subtitle {"translate":"stage_2_aqua.iloveu"}
 execute if score #user stage_secret_aqua matches 5020 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 5020 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 5020 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 
 execute if score #user stage_secret_aqua matches 5108 run title @a subtitle {"text":""}
-execute if score #user stage_secret_aqua matches 5108 run title @a title  {"translate":"stage_2_aqua.i"}
-execute if score #user stage_secret_aqua matches 5115 run title @a title  {"translate":"stage_2_aqua.love"}
-execute if score #user stage_secret_aqua matches 5125 run title @a title  {"translate":"stage_2_aqua.you"}
-execute if score #user stage_secret_aqua matches 5131 run title @a title  {"translate":"stage_2_aqua.so"}
-execute if score #user stage_secret_aqua matches 5136 run title @a title  {"translate":"stage_2_aqua.much"}
+execute if score #user stage_secret_aqua matches 5108 run title @a title {"translate":"stage_2_aqua.i"}
+execute if score #user stage_secret_aqua matches 5115 run title @a title {"translate":"stage_2_aqua.love"}
+execute if score #user stage_secret_aqua matches 5125 run title @a title {"translate":"stage_2_aqua.you"}
+execute if score #user stage_secret_aqua matches 5131 run title @a title {"translate":"stage_2_aqua.so"}
+execute if score #user stage_secret_aqua matches 5136 run title @a title {"translate":"stage_2_aqua.much"}
 execute if score #user stage_secret_aqua matches 5136 run title @a times 0.5s 3s 0.5s
 
 execute if score #user stage_secret_aqua matches 5214 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 5214 run title @a subtitle  {"translate":"stage_2_aqua.iloveu"}
+execute if score #user stage_secret_aqua matches 5214 run title @a subtitle {"translate":"stage_2_aqua.iloveu"}
 execute if score #user stage_secret_aqua matches 5270 run title @a title {"text":""}
-execute if score #user stage_secret_aqua matches 5270 run title @a subtitle  {"translate":"stage_2_aqua.loveu"}
+execute if score #user stage_secret_aqua matches 5270 run title @a subtitle {"translate":"stage_2_aqua.loveu"}
 
 execute if score #user stage_secret_aqua matches 5350 run title @a title {"text":""}
 execute if score #user stage_secret_aqua matches 5350 run title @a subtitle {"translate":"stage_2_aqua.58"}

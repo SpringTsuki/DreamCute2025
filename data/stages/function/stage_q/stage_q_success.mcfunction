@@ -3,3 +3,6 @@ scoreboard objectives setdisplay sidebar
 
 setblock 960 67 2754 minecraft:redstone_block
 tellraw @p {"text":"","extra":[{"translate":"stage.q.chat.success"}]}
+
+scoreboard players set #user stage_q_quest 1
+scoreboard players set #user secret_story 1

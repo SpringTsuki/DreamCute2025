@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"translate":"story.chat.y"}]}

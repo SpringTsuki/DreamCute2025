@@ -5,5 +5,3 @@ execute if score #user final_challange matches 2890 run function stages:bgm/stag
 execute if score #user final_challange matches 10970 run function stages:bgm/stage_1_3
 execute if score #user final_challange matches 15640 run function stages:bgm/stage_1_4
 execute if score #user final_challange matches 20270 run function stages:bgm/stage_1_1_5
-
-function stages:final_lyric
