@@ -75,3 +75,19 @@ setblock 960 67 2754 minecraft:air
 # Lv.Secret
 setblock 934 22 2724 minecraft:air
 setblock 927 63 2813 minecraft:air
+
+# Lv.1
+setblock 940 2 2768 minecraft:air replace
+setblock 940 2 2766 minecraft:air replace
+setblock 940 2 2764 minecraft:air replace
+setblock 940 2 2762 minecraft:air replace
+setblock 940 2 2760 minecraft:air replace
+setblock 940 2 2758 minecraft:air replace
+
+setblock 944 2 2767 minecraft:air replace
+setblock 944 2 2765 minecraft:air replace
+setblock 944 2 2763 minecraft:air replace
+setblock 944 2 2761 minecraft:air replace
+setblock 944 2 2759 minecraft:air replace
+
+setblock 952 4 2767 minecraft:air replace

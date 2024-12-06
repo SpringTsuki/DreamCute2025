@@ -1,6 +1,0 @@
-execute if score #user system_bgm_stage_0_1 matches 1 run tellraw @s {"text":"§c2. ","extra":[{"translate":"bgm.name.stage_0_start"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 2"}}
-execute if score #user system_bgm_stage_0_2 matches 1 run tellraw @s {"text":"§c3. ","extra":[{"translate":"bgm.name.stage_0_mid"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 3"}}
-execute if score #user system_bgm_stage_0_3 matches 1 run tellraw @s {"text":"§c4. ","extra":[{"translate":"bgm.name.stage_0_final"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 4"}}
-execute if score #user system_bgm_stage_a_start matches 1 run tellraw @s {"text":"§c5. ","extra":[{"translate":"bgm.name.stage_a_start"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 5"}}
-execute if score #user system_bgm_stage_a_questend matches 1 run tellraw @s {"text":"§c6. ","extra":[{"translate":"bgm.name.stage_a_questend"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 6"}}
-execute if score #user system_bgm_stage_l_questend matches 1 run tellraw @s {"text":"§c7. ","extra":[{"translate":"bgm.name.stage_l_questend"}],"clickEvent":{"action":"run_command","value":"/trigger system_bgm set 7"}}

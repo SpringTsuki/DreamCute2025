@@ -1,0 +1,1 @@
+setblock 972 8 2733 minecraft:redstone_block replace
