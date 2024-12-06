@@ -1,2 +1,0 @@
-scoreboard objectives remove stage_0_check
-scoreboard objectives remove stage_0_bgm
