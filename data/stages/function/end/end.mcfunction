@@ -26,7 +26,7 @@ schedule function stages:end/comments/talk23 80s
 schedule function stages:end/comments/talk24 83s
 schedule function stages:end/comments/talk25 86s
 schedule function stages:end/comments/talk26 89s
-schedule function stages:end/comments/talk27 91s
+schedule function stages:end/comments/talk27 93s
 schedule function stages:end/comments/end_title 94s
 schedule function stages:end/comments/end_name 97s
 schedule function stages:end/comments/end_details1 100s
@@ -39,4 +39,5 @@ schedule function stages:end/comments/end_thanks3 130s
 schedule function stages:end/comments/end_thanks4 135s
 schedule function stages:end/effect 140s
 schedule function stages:end/lanterns 145s
+worldborder set 39999999
 

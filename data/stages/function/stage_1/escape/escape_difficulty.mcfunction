@@ -1,1 +1,1 @@
-difficulty normal
+difficulty hard

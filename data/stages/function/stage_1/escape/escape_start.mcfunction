@@ -3,6 +3,7 @@ tp @a 961 6 2764
 spawnpoint @a 961 6 2764
 function stages:bgm/stage_1_final_escape
 function stages:stage_1/escape/bgm_trigger/bgm1
+function stages:stage_1/stage_1_lyric
 
 bossbar add escape_nuke "核爆倒计时"
 bossbar set minecraft:escape_nuke color red
@@ -12,6 +13,7 @@ bossbar set minecraft:escape_nuke value 3200
 scoreboard objectives add nuke_loading trigger
 scoreboard players set #user nuke_loading 3200
 schedule function stages:stage_1/bossbar/nuke_loading 325s
+schedule function stages:stage_1/comments/end_nuke_tips 325s
 
 schedule function stages:stage_1/escape/escape_difficulty 20s
 
@@ -60,5 +62,7 @@ schedule function stages:stage_1/comments/escape_loading2 455s
 schedule function stages:stage_1/comments/escape_loading1 456s
 schedule function stages:stage_1/comments/escape_loading6 457s
 
-schedule function stages:stage_1/escape/escape_end 485s
+schedule function stages:stage_1/escape/escape_effect 486.1s
+schedule function stages:stage_1/escape/escape_tp 490s
+schedule function stages:stage_1/escape/escape_end 503s
 

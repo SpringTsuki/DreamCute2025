@@ -9,4 +9,4 @@ title @a times 0.5s 3s 0.5s
 
 stopsound @a
 function stages:bgm/stage_2_aqua
-setblock 913 56 2804 minecraft:redstone_block keep
+setblock 913 56 2804 minecraft:redstone_block replace

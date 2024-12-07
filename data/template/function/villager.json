@@ -1,9 +1,4 @@
-90F 西
-180F 北
-270F 东
-
-summon villager 897 70 2736 
-{Rotation: [
+summon villager 897 70 2736 {Rotation: [
         180F,
         0F
     ],CustomName:'{
@@ -22,20 +17,20 @@ summon villager 897 70 2736
                         ],
                         "minecraft:can_break": {blocks: [
                                 "minecraft:coal_ore",
-                                "minecraft:lapis_lazuli",
+                                "minecraft:lapis_ore",
                                 "minecraft:emerald_ore"
                             ]
                         },
                         "minecraft:tool": {rules: [
                                 {blocks: [
                                         "minecraft:coal_ore",
-                                        "minecraft:lapis_lazuli",
+                                        "minecraft:lapis_ore",
                                         "minecraft:emerald_ore"
                                     ],correct_for_drops:True
                                 }
                             ]
                         },
-                        "minecraft:enchantments": {unbreaking: 2
+                        "minecraft:enchantments": {unbreaking: 2,fortune: 1
                         }
                     }
                 },xp: 0,uses: -2147483648,priceMultiplier: 0f,specialPrice: 0,demand: 0,rewardExp: 0b
@@ -136,7 +131,7 @@ summon villager 897 70 2736
                                         "minecraft:iron_ore",
                                         "minecraft:gold_ore",
                                         "minecraft:diamond_ore"
-                                    ],correct_for_drops:True
+                                    ],correct_for_drops:True,speed:5
                                 }
                             ]
                         },
@@ -172,7 +167,7 @@ summon villager 897 70 2736
                                 "translate": "stage.n.npc.item6_desc"
                             }'
                         ],
-                        "minecraft:enchantments": {unbreaking: 2
+                        "minecraft:enchantments": {unbreaking: 2,sharpness: 1
                         }
                     }
                 },xp: 0,uses: -2147483648,priceMultiplier: 0f,specialPrice: 0,demand: 0,rewardExp: 0b
@@ -188,7 +183,7 @@ summon villager 897 70 2736
                                 "translate": "stage.n.npc.item7_desc"
                             }'
                         ],
-                        "minecraft:enchantments": {unbreaking: 2
+                        "minecraft:enchantments": {unbreaking: 2,sharpness: 2
                         }
                     }
                 },xp: 0,uses: -2147483648,priceMultiplier: 0f,specialPrice: 0,demand: 0,rewardExp: 0b

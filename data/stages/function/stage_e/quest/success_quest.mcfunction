@@ -7,6 +7,7 @@ setblock 911 67 2762 minecraft:redstone_block replace
 scoreboard players set #user stage_e_timeline 0
 scoreboard players set #user stage_e_quest 1
 scoreboard players set @a stage_e_quest 1
+scoreboard players set #user stage_n_sandtool 3
 
 title @a title {"text":""}
 title @a subtitle {"text":"","extra":[{"translate":"stage.e.quest_success"}]}

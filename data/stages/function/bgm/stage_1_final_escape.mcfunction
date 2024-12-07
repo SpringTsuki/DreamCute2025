@@ -1,2 +1,2 @@
 stopsound @a
-execute as @a at @s run playsound minecraft:final_escape master @a ~ ~ ~ 0.15
+playsound minecraft:final_escape master @a 960 6 2764 0.15
