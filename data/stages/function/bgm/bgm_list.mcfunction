@@ -1,0 +1,2 @@
+tellraw @a [{"text":"§6§n（点我打开）地图歌单链接：酷狗","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"open_url","value":"https://t1.kugou.com/34SvHa7CUV2"}}]
+tellraw @a [{"text":"§6§n（点我打开）地图歌单链接：网易云（部分音乐缺少版权）","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"open_url","value":"https://music.163.com/playlist?id=12966822301&uct2=U2FsdGVkX18MnQtE13nFRjOV5+YVQtVKbvjQnO4rmPM="}}]

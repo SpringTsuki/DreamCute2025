@@ -33,6 +33,7 @@ schedule function stages:end/comments/end_details1 100s
 schedule function stages:end/comments/end_details2 105s
 schedule function stages:end/comments/end_details3 110s
 schedule function stages:end/comments/end_details4 115s
+schedule function stages:bgm/bgm_list 117s
 schedule function stages:end/comments/end_thanks1 120s
 schedule function stages:end/comments/end_thanks2 125s
 schedule function stages:end/comments/end_thanks3 130s
