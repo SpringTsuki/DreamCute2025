@@ -10,7 +10,8 @@
       "stages:stage_y/stage_y_ticks",
 
       "stages:secret_story/secret_story_ticks",
-      "stages:stage_2/aquacolor/aqua_trigger"
-      
+
+      "stages:stage_2/aquacolor/aqua_trigger",
+      "stages:stage_2/moonhalo/moonhalo_trigger"
     ]
   }
