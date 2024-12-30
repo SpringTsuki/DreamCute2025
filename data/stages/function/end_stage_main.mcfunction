@@ -10,6 +10,7 @@ scoreboard objectives remove secret_talk
 # Lv.A
 scoreboard objectives remove stage_a_talk
 scoreboard objectives remove stage_a_quest
+scoreboard objectives remove stage_a_secret_bgm
 
 # Lv.D
 scoreboard objectives remove stage_d_ore
@@ -34,6 +35,7 @@ scoreboard objectives remove stage_n_quest
 
 # Lv.Q
 scoreboard objectives remove stage_q_talk
+scoreboard objectives remove stage_q_quest
 scoreboard objectives remove stage_q_failed
 
 # Lv.S
