@@ -1,0 +1,1 @@
+tellraw @a {"text":"","extra":[{"translate":"end_congrats_y_5"}]}

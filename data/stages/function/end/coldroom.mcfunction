@@ -1,0 +1,1 @@
+setblock 945 60 2742 minecraft:redstone_block

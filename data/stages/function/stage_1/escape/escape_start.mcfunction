@@ -27,6 +27,25 @@ schedule function stages:stage_1/comments/escape_tips7 35s
 schedule function stages:stage_1/comments/escape_tips8 47s
 schedule function stages:stage_1/comments/escape_tips9 310s
 schedule function stages:stage_1/comments/escape_tips10 370s
+
+schedule function stages:stage_1/comments/escape_tips_final_l1 375s
+schedule function stages:stage_1/comments/escape_tips_final_q1 378s
+schedule function stages:stage_1/comments/escape_tips_final_e1 381s
+schedule function stages:stage_1/comments/escape_tips_final_d1 384s
+schedule function stages:stage_1/comments/escape_tips_final_s1 387s
+schedule function stages:stage_1/comments/escape_tips_final_y1 391s
+schedule function stages:stage_1/comments/escape_tips_final_n1 394s
+schedule function stages:stage_1/comments/escape_tips_final_a1 460s
+
+schedule function stages:stage_1/comments/escape_tips_final_a2 463s
+schedule function stages:stage_1/comments/escape_tips_final_e2 466s
+schedule function stages:stage_1/comments/escape_tips_final_d2 469s
+schedule function stages:stage_1/comments/escape_tips_final_l2 471s
+schedule function stages:stage_1/comments/escape_tips_final_s2 474s
+schedule function stages:stage_1/comments/escape_tips_final_y2 477s
+schedule function stages:stage_1/comments/escape_tips_final_n2 480s
+schedule function stages:stage_1/comments/escape_tips_final_q2 482s
+
 schedule function stages:stage_1/comments/escape_tips11 435s
 schedule function stages:stage_1/comments/escape_tips12 445s
 

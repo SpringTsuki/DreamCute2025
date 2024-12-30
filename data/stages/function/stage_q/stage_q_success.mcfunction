@@ -7,3 +7,4 @@ setblock 954 70 2758 minecraft:air
 
 scoreboard players set #user stage_q_quest 1
 scoreboard players set #user secret_story 1
+setblock 954 70 2758 minecraft:air
