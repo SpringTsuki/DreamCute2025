@@ -8,6 +8,7 @@ function stages:init_stage_q
 function stages:init_stage_s
 function stages:init_stage_y
 function stages:init__stage_secret
+function stages:init_bgm_system
 
 # 游戏参数设置
 

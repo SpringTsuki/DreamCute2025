@@ -63,8 +63,10 @@ execute if score #user stage_e_timeline matches 3789 run effect give @a minecraf
 execute if score #user stage_e_timeline matches 3790 run summon armor_stand 552.00 -57.00 2624.50 {Invisible:1b}
 execute if score #user stage_e_timeline matches 3790 run tp @a 552.00 -57.00 2624.50 180 0
 
+execute if score #user stage_e_timeline matches 3791 run gamemode spectator @a
 execute if score #user stage_e_timeline matches 3791..3910 run execute at @e[type=minecraft:armor_stand] facing 552.00 -57.00 3030.50 run tp @e[type=minecraft:armor_stand] ^ ^ ^3.39
 execute if score #user stage_e_timeline matches 3791..3910 run execute at @e[type=minecraft:armor_stand] run tp @a ~ ~ ~ facing 552.00 -57 2623.50
+execute if score #user stage_e_timeline matches 3910 run gamemode adventure @a
 
 execute if score #user stage_e_timeline matches 3911 run kill @e[type=armor_stand]
 execute if score #user stage_e_timeline matches 3925 run fill 551 -55 3023 552 -57 3023 minecraft:white_concrete

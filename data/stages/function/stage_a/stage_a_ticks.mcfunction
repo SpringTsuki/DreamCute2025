@@ -16,6 +16,7 @@ execute if score #user stage_a_quest matches 1 run function stages:stage_a/stage
 execute if score #user stage_2_aqua matches 1.. run return 0
 execute if score #user stage_2_moonhalo matches 1 run return 0
 execute if score #user stage_2_wind matches 1 run return 0
+execute if score #user stage_2_water matches 1 run return 0
 execute as @a at @s unless entity @s[x=940,y=90,z=2740,dx=21,dy=5,dz=-27] run function stages:stage_a/stage_a_secret_bgm
 
 execute as @a[x=940,y=90,z=2740,dx=21,dy=5,dz=-27] at @s run scoreboard players add @s stage_a_secret_bgm 1

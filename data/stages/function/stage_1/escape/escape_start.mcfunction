@@ -1,6 +1,10 @@
 difficulty peaceful
 tp @a 961 6 2764
 spawnpoint @a 961 6 2764
+
+effect give @a minecraft:blindness 3
+effect give @a minecraft:darkness 3
+
 function stages:bgm/stage_1_final_escape
 function stages:stage_1/escape/bgm_trigger/bgm1
 function stages:stage_1/stage_1_lyric

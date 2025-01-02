@@ -1,0 +1,1 @@
+scoreboard objectives add system_bgm trigger

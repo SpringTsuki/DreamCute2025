@@ -46,3 +46,5 @@ scoreboard objectives remove stage_s_microworld_bgm
 # Lv.Y
 scoreboard objectives remove stage_y_talk
 scoreboard objectives remove stage_y_quest
+
+scoreboard objectives remove system_bgm

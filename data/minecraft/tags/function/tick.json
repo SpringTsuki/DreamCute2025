@@ -8,11 +8,11 @@
       "stages:stage_s/stage_s_ticks",
       "stages:stage_q/stage_q_ticks",   
       "stages:stage_y/stage_y_ticks",
-
       "stages:secret_story/secret_story_ticks",
-
       "stages:stage_2/aquacolor/aqua_trigger",
       "stages:stage_2/moonhalo/moonhalo_trigger",
-      "stages:stage_2/wind/wind_trigger"
+      "stages:stage_2/wind/wind_trigger",
+      "stages:stage_2/water/water_trigger",
+      "stages:bgm/bgm_list/bgm_ticks"
     ]
   }
