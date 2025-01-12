@@ -7,7 +7,7 @@ schedule function stages:stage_1/lyric/p1_6 28.7s
 schedule function stages:stage_1/lyric/p1_7 31.2s
 schedule function stages:stage_1/lyric/p1_8 34s
 
-schedule function stages:stage_1/lyric/p3_1 236s
+schedule function stages:stage_1/lyric/p3_1 235.8s
 schedule function stages:stage_1/lyric/p3_2 237s
 schedule function stages:stage_1/lyric/p3_3 238.2s
 schedule function stages:stage_1/lyric/p3_4 239.6s

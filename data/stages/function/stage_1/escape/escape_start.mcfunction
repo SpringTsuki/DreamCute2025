@@ -7,7 +7,7 @@ effect give @a minecraft:darkness 3
 
 function stages:bgm/stage_1_final_escape
 function stages:stage_1/escape/bgm_trigger/bgm1
-function stages:stage_1/stage_1_lyric
+function stages:stage_1/escape/escape_lyric_bgm1
 
 bossbar add escape_nuke "核爆倒计时"
 bossbar set minecraft:escape_nuke color red

@@ -1,8 +1,8 @@
 tp @a 926 69 2746
 spawnpoint @a 926 69 2746
 function stages:bgm/end_lanterns
-give @a minecraft:tripwire_hook[minecraft:custom_name='"2025"']
-gamemode survival @a
+# give @a minecraft:tripwire_hook[minecraft:custom_name='"2025"']
+# gamemode survival @a
 time set midnight
 weather rain
 

@@ -13,6 +13,7 @@
       "stages:stage_2/moonhalo/moonhalo_trigger",
       "stages:stage_2/wind/wind_trigger",
       "stages:stage_2/water/water_trigger",
-      "stages:bgm/bgm_list/bgm_ticks"
+      "stages:bgm/bgm_list/bgm_ticks",
+      "stages:game_end"
     ]
   }
