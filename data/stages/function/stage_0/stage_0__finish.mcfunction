@@ -9,5 +9,4 @@ scoreboard players set #user system_bgm_stage_0_3 1
 
 stopsound @a
 function stages:bgm/stage_0_final
-
 function stages:end_stage_0

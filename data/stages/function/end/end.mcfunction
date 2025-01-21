@@ -42,3 +42,13 @@ schedule function stages:end/effect 140s
 schedule function stages:end/lanterns 145s
 worldborder set 39999999
 
+schedule function stages:stage_1/lyric/end_1 100.1s
+schedule function stages:stage_1/lyric/end_2 103.1s
+schedule function stages:stage_1/lyric/end_3 108.1s
+schedule function stages:stage_1/lyric/end_4 111s
+schedule function stages:stage_1/lyric/end_5 116.2s
+schedule function stages:stage_1/lyric/end_6 120s
+schedule function stages:stage_1/lyric/end_7 125s
+schedule function stages:stage_1/lyric/end_8 129s
+schedule function stages:stage_1/lyric/end_9 133s
+schedule function stages:stage_1/lyric/end_10 139s

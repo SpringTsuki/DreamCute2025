@@ -1,5 +1,6 @@
 tp @a 926 69 2746
 spawnpoint @a 926 69 2746
+title @a times 1.5s 3s 2.5s
 function stages:bgm/end_lanterns
 # give @a minecraft:tripwire_hook[minecraft:custom_name='"2025"']
 # gamemode survival @a
